@@ -1,1 +1,1 @@
-alert {hello, world!} # grig
+alert (hello, world!); # grig

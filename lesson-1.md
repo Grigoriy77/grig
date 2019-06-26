@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__content">
+            <div class="header__block">
+                <a href="#" class="logo">
+                    <img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="logo_d">D</span>
+                </a>
+                <form class="header__form" action="#">
+                    <div class="form__brows">Browse<a href="#"><img class="form__brows_pointer" src="img/pointer.png" alt="pointer"></a>
+                    </div>
+                    <input class="header__form__input" type="text" size="30" placeholder="Search for Item..."><button class="form__search"><a href="#"><img src="img/search.png" alt="search"></a></button>
+                </form>
+            </div>
+            <div class="header__block">
+              <a href="#" class="header__basket" ><img src="img/basket.svg" alt="basket"></a>
+                <a href="#" class="button">My Account</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+       <ul class="menu">
+        <li><a href="#" class="menu__link">Home</a></li>
+        <li><a href="#" class="menu__link">Man</a></li>
+        <li><a href="#" class="menu__link">Women</a></li>
+        <li><a href="#" class="menu__link">Kids</a></li>
+        <li><a href="#" class="menu__link">Accoseriese</a></li>
+        <li><a href="#" class="menu__link">Featured</a></li>
+        <li><a href="#" class="menu__link">Hot Deals</a></li> 
+       </ul>
+    </nav>
+    <div class="promo">
+        <div class="promo__content">
+            <a href="#">
+               <div class="promo__text">
+                <h3 class="promo__h3">THE BRAND</h3>
+                <h4 class="promo__h4">OF LUXERIOUS <span class="h4_fashion">FASHION</span></h4>
+               </div>
+            </a>
+        </div>
+    </div>
+    <div class="offer container">
+        <div class="offer__content">
+            <a href="#">
+              <div class="item__content">
+                 <div class="offer__item offer__item_big_1"></div>
+                 
+                 <div class="offer__item_catalog">
+                     <h6 class="item__h6">hOT dEAL</h6>
+                     <h5 class="item__h5">FOR MEN</h5>
+                 </div>
+              </div>  
+
+            </a>
+            
+            <a href="#">
+                <div class="item__content">
+                    <div class="offer__item offer__item_mini_1"></div>
+                    
+                    <div class="offer__item_catalog">
+                     <h6 class="item__h6">LUXIROUS & trendy</h6>
+                     <h5 class="item__h5">ACCESORIES</h5>
+                 </div>
+                    
+                </div>
+            </a>
+        </div>
+         <div class="offer__content">
+            <a href="#">
+              <div class="item__content">
+                 <div class="offer__item offer__item_mini_2"></div>
+                 
+                 <div class="offer__item_catalog">
+                     <h6 class="item__h6">30% offer</h6>
+                     <h5 class="item__h5">women</h5>
+                 </div>
+              </div>  
+
+            </a>
+            
+            <a href="#">
+                <div class="item__content">
+                    <div class="offer__item offer__item_big_2"></div>
+                    
+                    <div class="offer__item_catalog">
+                     <h6 class="item__h6">new arrivals</h6>
+                     <h5 class="item__h5">FOR kids</h5>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="fetured container">
+        <div class="featured__content">
+            <h5 class="featured_h5">Fetured Items</h5>
+            <h7 class="featured_h7">Shop for items based on what we featured in this week</h7>
+        </div>
+    </div> 
+    
+    <div class="shop container">
+        <div class="shop__content">
+            <a class="shadow" href="#">
+              <div class="shop__goods">
+               <div class="goods__img_1"></div>
+               <p class="goods_nik">Mango  People  T-shirt</p>
+               <p class="price">$52.00</p>
+              </div>
+            </a>
+            
+            <a class="shadow" href="#">
+               <div class="shop__goods">
+                 <div class="goods__img_2"></div>
+                 <p class="goods_nik">Mango  People  T-shirt</p>
+                 <p class="price">$52.00</p>
+               </div>
+            </a>
+            
+            <a class="shadow" href="#">
+               <div class="shop__goods">
+                 <div class="goods__img_3"></div>
+                 <p class="goods_nik">Mango  People  T-shirt</p>
+                 <p class="price">$52.00</p>
+               </div>
+            </a>
+            
+            <a class="shadow" href="#">
+               <div class="shop__goods">
+                 <div class="goods__img_4"></div>
+                 <p class="goods_nik">Mango  People  T-shirt</p>
+                 <p class="price">$52.00</p>
+               </div>
+            </a>
+        </div>
+        
+        <div class="shop__content">      
+            <a class="shadow" href="#">
+               <div class="shop__goods">
+                 <div class="goods__img_5"></div>
+                 <p class="goods_nik">Mango  People  T-shirt</p>
+                 <p class="price">$52.00</p>
+               </div>
+            </a>
+            
+            <a class="shadow" href="#">
+               <div class="shop__goods">
+                  <div class="goods__img_6"></div>
+                  <p class="goods_nik">Mango  People  T-shirt</p>
+                 <p class="price">$52.00</p>
+               </div>
+            </a>
+            
+            <a class="shadow" href="#">
+               <div class="shop__goods">
+                  <div class="goods__img_7"></div>
+                  <p class="goods_nik">Mango  People  T-shirt</p>
+                 <p class="price">$52.00</p>
+               </div>
+            </a>
+            
+            <a class="shadow" href="#">
+               <div class="shop__goods">
+                  <div class="goods__img_8"></div>
+                  <p class="goods_nik">Mango  People  T-shirt</p>
+                  <p class="price">$52.00</p>
+               </div>
+            </a>
+         </div>   
+    </div>
+    
+    <div class="browse_content container">
+       <a class="browse_a" href="#">
+        <button class="browse_All">Browse All Product <a href="#"><img class="pointer_2" src="img/pointer_2.png" alt="pointer_2"></a>
+        </button>
+        </a>
+    </div>
+    
+    
+        
+    
+    
+</body>
+</html>
